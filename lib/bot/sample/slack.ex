@@ -58,19 +58,19 @@ defmodule Bot.Skill.SlackRTM do
 		{:ok, state}
 	end
 
-	def handle_event(message = %{type: "reaction_added", user: sender}, _slack, state = %{me: me}) when sender != me do
+	def handle_event(message = %{type: "reaction_added", user: sender, item: %{channel: channel}}, _slack, state = %{me: me}) when sender != me do
 		Bot.cast(state.bot, "slack.reaction.add", message, %{
 			team: state.team,
-			channel: message.item.channel,
+			channel: channel,
 			sender: sender,
 		})
 		{:ok, state}
 	end
 
-	def handle_event(message = %{type: "reaction_removed", user: sender}, _slack, state = %{me: me}) when sender != me do
+	def handle_event(message = %{type: "reaction_removed", user: sender, item: %{channel: channel}}, _slack, state = %{me: me}) when sender != me do
 		Bot.cast(state.bot, "slack.reaction.remove", message, %{
 			team: state.team,
-			channel: message.item.channel,
+			channel: channel,
 			sender: sender,
 		})
 		{:ok, state}
