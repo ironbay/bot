@@ -33,6 +33,21 @@ defmodule Bot.Skill.Wrapper do
 		}}
 	end
 
+	def handle_info(msg, state) do
+		case state.skill.handle_info(msg, state.bot, state.data) do
+			{:noreply, data} ->
+				{:noreply, %{
+					state |
+					data: data,
+				}}
+			{:stop, reason, data} ->
+				{:stop, reason, %{
+					state |
+					data: data,
+				}}
+		end
+	end
+
 	def handle_cast(event = {action, body, context}, state) do
 		Task.start_link(fn -> handle_cast_async(event, state) end)
 
@@ -53,7 +68,7 @@ defmodule Bot.Skill.Wrapper do
 	end
 
 	def handle_cast_async(msg, state) do
-		:ok = state.skill.handle_cast_async(msg, state.bot, state.data)
+		state.skill.handle_cast_async(msg, state.bot, state.data)
 	end
 
 	def handle_call(msg = {action, body, context}, _from, state) do

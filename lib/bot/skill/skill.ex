@@ -2,14 +2,17 @@ defmodule Bot.Skill do
 	defmacro __using__(_) do
 		quote do
 			@before_compile Bot.Skill
+
+			def init(_bot, _args) do
+				{:ok, %{}}
+			end
+
+			defoverridable [init: 2]
 		end
 	end
 
 	defmacro __before_compile__(_env) do
 		quote do
-			def init(_bot, _args) do
-				{:ok, %{}}
-			end
 
 			def handle_cast_async(_event, _bot, _data) do
 				:ok
@@ -23,8 +26,8 @@ defmodule Bot.Skill do
 				{:reply, nil, state}
 			end
 
-			def handle_info(_event, _bot, _data) do
-				nil
+			def handle_info(event, _bot, state) do
+				{:noreply, state}
 			end
 		end
 	end
