@@ -2,6 +2,7 @@ defmodule Bot do
 
 	def cast(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
+		IO.inspect(msg)
 		bot
 		|> pending_group
 		|> :syn.publish(msg)

@@ -22,7 +22,6 @@ defmodule Bot.Skill.Regex do
 						|> Enum.into(%{})
 						|> Dynamic.keys_to_atoms
 						|> Map.put(:raw, text)
-					IO.inspect(event)
 					Bot.cast(bot, event, parsed, context)
 			end
 		end)

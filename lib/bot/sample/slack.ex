@@ -15,7 +15,7 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
-	def handle_cast({"slack.message", message, context}, bot, state) do
+	def handle_cast({"slack.message", message, context = %{team: team}}, bot, state = %{team: team}) do
 		Bot.cast(bot, "chat.message", %{ text: message.text }, context)
 		{:noreply, state}
 	end
