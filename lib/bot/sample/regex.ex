@@ -27,4 +27,11 @@ defmodule Bot.Skill.Regex do
 		end)
 		{:noreply, state}
 	end
+
+	def add(bot, event, pattern) do
+		Bot.call(bot, "regex.add", %{
+			pattern: pattern,
+			event: event,
+		})
+	end
 end

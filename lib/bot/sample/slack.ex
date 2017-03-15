@@ -24,7 +24,7 @@ end
 defmodule Bot.Skill.SlackRTM do
 	use Slack
 
-	def handle_connect(%{
+	def handle_connect(slack = %{
 		me: %{
 			id: id
 		},
