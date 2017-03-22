@@ -4,6 +4,7 @@
   "cqex": {:hex, :cqex, "0.2.0", "e94f565527b7440f1f894dfdda8b3df0b5bd12a9416d0306076a60dc65f1b4e6", [:mix], []},
   "db_connection": {:hex, :db_connection, "1.1.1", "f9d246e8f65b9490945cf7360875eee18fcec9a0115207603215eb1fd94c39ef", [:mix], [{:connection, "~> 1.0.2", [hex: :connection, optional: false]}, {:poolboy, "~> 1.5", [hex: :poolboy, optional: true]}, {:sbroker, "~> 1.0", [hex: :sbroker, optional: true]}]},
   "decimal": {:hex, :decimal, "1.3.1", "157b3cedb2bfcb5359372a7766dd7a41091ad34578296e951f58a946fcab49c6", [:mix], []},
+  "delayed_otp": {:hex, :delayed_otp, "0.0.3", "f4c86fbd6e6dbe900ba94e4c7339232f924794e6d318c35718764102f3dc4b49", [:mix], []},
   "delta": {:git, "https://github.com/ironbay/delta-elixir.git", "430c4f9154b7e0940a08e5c4d5b72af6465326ad", []},
   "exjsx": {:hex, :exjsx, "3.2.1", "1bc5bf1e4fd249104178f0885030bcd75a4526f4d2a1e976f4b428d347614f0f", [:mix], [{:jsx, "~> 2.8.0", [hex: :jsx, optional: false]}]},
   "hackney": {:hex, :hackney, "1.6.5", "8c025ee397ac94a184b0743c73b33b96465e85f90a02e210e86df6cbafaa5065", [:rebar3], [{:certifi, "0.7.0", [hex: :certifi, optional: false]}, {:idna, "1.2.0", [hex: :idna, optional: false]}, {:metrics, "1.0.1", [hex: :metrics, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_fun, "1.1.1", [hex: :ssl_verify_fun, optional: false]}]},

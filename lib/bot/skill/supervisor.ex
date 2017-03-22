@@ -8,7 +8,7 @@ defmodule Bot.Skill.Supervisor do
 
 	def init(_) do
 		children = [
-			worker(Bot.Skill.Wrapper, []),
+			worker(Bot.Skill.Delay, []),
 		]
 		opts = [strategy: :simple_one_for_one]
 		supervise(children, opts)

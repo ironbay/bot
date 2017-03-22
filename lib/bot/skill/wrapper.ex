@@ -1,6 +1,10 @@
 defmodule Bot.Skill.Wrapper do
 	use GenServer
 
+	def start(bot, skill, args) do
+		GenServer.start(__MODULE__, [bot, skill, args])
+	end
+
 	def start_link(bot, skill, args) do
 		GenServer.start_link(__MODULE__, [bot, skill, args])
 	end

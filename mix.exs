@@ -31,7 +31,7 @@ defmodule Bot.Mixfile do
 	defp deps do
 		[
 			{:syn, "~> 1.6"},
-			{:slack, "~> 0.10.0"},
+			{:slack, "~> 0.10.0"}
 		]
 	end
 end
