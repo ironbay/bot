@@ -7,6 +7,7 @@ defmodule Bot.Skill.Slack do
 		{:ok, %{
 			rtm: pid,
 			team: team,
+			token: token,
 		}}
 	end
 
@@ -15,8 +16,28 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
+	def handle_cast({"bot.image", body = %{url: url}, context = %{team: team}}, _bot, state = %{team: team}) do
+		Slack.Web.Chat.post_message(context.channel, "", %{
+			token: state.token,
+			as_user: true,
+			attachments: [
+				%{
+					fallback: url,
+					pretext: Map.get(body, :title),
+					image_url: url,
+				}
+			] |> JSX.encode!
+
+		})
+		{:noreply, state}
+	end
+
 	def handle_cast({"slack.message", message, context = %{team: team}}, bot, state = %{team: team}) do
-		Bot.cast(bot, "chat.message", %{ text: message.text }, context)
+		text =
+			message.text
+			|> String.replace("<", "")
+			|> String.replace(">", "")
+		Bot.cast(bot, "chat.message", %{ text: text }, context)
 		{:noreply, state}
 	end
 end
