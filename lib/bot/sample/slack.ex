@@ -12,7 +12,12 @@ defmodule Bot.Skill.Slack do
 	end
 
 	def handle_cast({"bot.message", text, context = %{team: team}}, _bot, state = %{team: team}) do
-		send(state.rtm, {:message, text, context.channel})
+		Slack.Web.Chat.post_message(context.channel, text, %{
+			token: state.token,
+			as_user: true,
+			channel: context.channel,
+			thread_ts: context.thread,
+		})
 		{:noreply, state}
 	end
 
@@ -20,6 +25,7 @@ defmodule Bot.Skill.Slack do
 		Slack.Web.Chat.post_message(context.channel, "", %{
 			token: state.token,
 			as_user: true,
+			thread_ts: context.thread_ts,
 			attachments: [
 				%{
 					fallback: url,
@@ -75,6 +81,7 @@ defmodule Bot.Skill.SlackRTM do
 			team: state.team,
 			channel: message.channel,
 			sender: sender,
+			thread: Map.get(message, :thread_ts),
 		})
 		{:ok, state}
 	end
