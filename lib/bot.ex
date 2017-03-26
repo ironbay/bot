@@ -59,6 +59,7 @@ defmodule Bot do
 	end
 
 	def wait(bot, filter, actions) do
+		filter = Map.delete(filter, :key)
 		# Clear existing registrations on context
 		bot
 		|> pending_group

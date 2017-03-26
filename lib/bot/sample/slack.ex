@@ -21,6 +21,16 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
+	def handle_cast({"bot.reply", text, context = %{team: team}}, _bot, state = %{team: team}) do
+		Slack.Web.Chat.post_message(context.channel, text, %{
+			token: state.token,
+			as_user: true,
+			channel: context.channel,
+			thread_ts: context.key,
+		})
+		{:noreply, state}
+	end
+
 	def handle_cast({"bot.image", body = %{url: url}, context = %{team: team}}, _bot, state = %{team: team}) do
 		Slack.Web.Chat.post_message(context.channel, "", %{
 			token: state.token,
@@ -33,7 +43,6 @@ defmodule Bot.Skill.Slack do
 					image_url: url,
 				}
 			] |> JSX.encode!
-
 		})
 		{:noreply, state}
 	end
@@ -78,10 +87,11 @@ defmodule Bot.Skill.SlackRTM do
 
 	def handle_event(message = %{type: "message", user: sender}, _slack, state = %{me: me}) when sender != me do
 		Bot.cast(state.bot, "slack.message", message, %{
+			key: message.ts,
 			team: state.team,
 			channel: message.channel,
 			sender: sender,
-			thread: Map.get(message, :thread_ts),
+			thread: Map.get(message, :thread_ts, ""),
 		})
 		{:ok, state}
 	end
