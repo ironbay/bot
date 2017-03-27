@@ -1,5 +1,6 @@
 defmodule Bot.Skill.Hello do
 	use Bot.Skill
+	import Bot.Macros
 
 	def init(bot, _) do
 		Bot.call(bot, "regex.add", %{
@@ -18,17 +19,18 @@ defmodule Bot.Skill.Hello do
 	end
 
 	def handle_cast({"chat.hello", _body, context}, bot, state) do
-		Bot.cast(bot, "bot.message", "Hey there, how are you?", context)
-		{:wait, ["chat.good", "chat.bad"], state}
-	end
-
-	def handle_response({"chat.good", _, context}, _payload, bot, state) do
-		Bot.cast(bot, "bot.message", "That's great to hear!", context)
-		{:noreply, state}
-	end
-
-	def handle_response({"chat.bad", _, context}, _payload, bot, state) do
-		Bot.cast(bot, "bot.message", "Sorry to hear that :(", context)
+		question "Hey there how are you?" do
+			wait "chat.good" do
+				cast("bot.message", "That's great to hear!")
+			end
+			wait "chat.bad" do
+				question "Sorry to hear that. What happened?" do
+					wait "chat.message" do
+						cast("bot.message", "Damn that does suck")
+					end
+				end
+			end
+		end
 		{:noreply, state}
 	end
 end
