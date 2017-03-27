@@ -35,7 +35,7 @@ defmodule Bot.Skill.Slack do
 		Slack.Web.Chat.post_message(context.channel, "", %{
 			token: state.token,
 			as_user: true,
-			thread_ts: context.thread_ts,
+			thread_ts: context.thread,
 			attachments: [
 				%{
 					fallback: url,
