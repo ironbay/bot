@@ -7,7 +7,6 @@ defmodule Bot.Macros do
 
 	defmacro question(msg, callback) do
 		[do: {_, _, listeners}] = callback
-		IO.inspect(listeners)
 		actions =
 			case listeners do
 				[action, [do: _]] -> [action]

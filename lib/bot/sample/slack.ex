@@ -21,6 +21,15 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
+	def handle_cast({"bot.reaction", label, context = %{team: team}}, _bot, state = %{team: team}) do
+		Slack.Web.Reactions.add(label, %{
+			token: state.token,
+			channel: context.channel,
+			timestamp: context.key,
+		})
+		{:noreply, state}
+	end
+
 	def handle_cast({"bot.reply", text, context = %{team: team}}, _bot, state = %{team: team}) do
 		Slack.Web.Chat.post_message(context.channel, text, %{
 			token: state.token,
