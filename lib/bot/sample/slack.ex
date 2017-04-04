@@ -61,7 +61,7 @@ defmodule Bot.Skill.Slack do
 			message.text
 			|> String.replace("<", "")
 			|> String.replace(">", "")
-		Bot.cast(bot, "chat.message", %{ text: text }, context)
+		Bot.cast(bot, "chat.message", %{ text: String.trim(text) }, context)
 		{:noreply, state}
 	end
 end
