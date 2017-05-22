@@ -1,7 +1,7 @@
 defmodule Bot.Macros do
 	defmacro wait(actions) do
 		quote do
-			Bot.wait(var!(bot), var!(context), unquote(actions)) |> IO.inspect
+			Bot.wait(var!(bot), var!(context), unquote(actions))
 		end
 	end
 
@@ -28,7 +28,6 @@ defmodule Bot.Macros do
 
 	defmacro wait(action, callback) do
 		quote do
-			IO.inspect(unquote(action))
 			if unquote(action) == var!(next_action), do: unquote(callback)
 		end
 	end
