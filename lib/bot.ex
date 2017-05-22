@@ -2,6 +2,7 @@ defmodule Bot do
 
 	def cast(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
+		IO.inspect(msg)
 		bot
 		|> pending_group
 		|> publish(msg)
@@ -13,6 +14,7 @@ defmodule Bot do
 
 	def call(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
+		IO.inspect(msg)
 		self = self()
 		bot
 		|> skills
