@@ -6,8 +6,8 @@ defmodule Bot.Skill.Delay do
 	end
 
 	def init([bot, skill, args]) do
-		send(self(), :start)
-		{:ok, [bot, skill, args]}
+		{:noreply, state} = handle_info(:start, [bot, skill, args])
+		{:ok, state}
 	end
 
 	def handle_info(:start, state = [bot, skill, args]) do
