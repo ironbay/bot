@@ -30,8 +30,9 @@ defmodule Bot.Mixfile do
 	# Type "mix help deps" for more examples and options
 	defp deps do
 		[
-			{:syn, "~> 1.6"},
-			{:slack, "~> 0.10.0"}
+			{:slack, "~> 0.10.0"},
+			{:partisan, "~> 0.2.2"},
+			{:lasp_pg, "~> 0.0.1"},
 		]
 	end
 end

@@ -4,7 +4,7 @@ defmodule Bot do
 		msg = {action, body, context}
 		bot
 		|> pending_group
-		|> :syn.publish(msg)
+		|> publish(msg)
 
 		bot
 		|> skills
@@ -27,7 +27,20 @@ defmodule Bot do
 	def skills(bot) do
 		bot
 		|> skill_group
-		|> :syn.get_members
+		|> members
+	end
+
+	defp members(group) do
+		{:ok, result} =
+            group
+			|> :lasp_pg.members
+		result |> :sets.to_list
+	end
+
+	defp publish(group, msg) do
+		group
+        |> members
+		|> Enum.each(fn pid -> send(pid, msg) end)
 	end
 
 	def skill_group(bot) do
@@ -45,8 +58,8 @@ defmodule Bot do
 
 	def add_skill(bot, pid) do
 		bot
-		|> Bot.skill_group
-		|> :syn.join(pid)
+		|> skill_group
+		|> :lasp_pg.join(pid)
 	end
 
 	def wait_async(bot, filter, actions, payload \\ []) do
@@ -62,12 +75,12 @@ defmodule Bot do
 		# Clear existing registrations on context
 		bot
 		|> pending_group
-		|> :syn.publish({:new, filter})
+		|> publish({:new, filter})
 
 		# Join pending
 		bot
 		|> pending_group
-		|> :syn.join(self())
+		|> :lasp_pg.join(self())
 
 
 		# Event loop
@@ -76,7 +89,7 @@ defmodule Bot do
 		# Leave pending group
 		bot
 		|> pending_group
-		|> :syn.leave(self())
+		|> :lasp_pg.leave(self())
 
 		# Process result
 		case result do
