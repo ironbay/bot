@@ -37,11 +37,4 @@ defmodule Bot.Macros do
 
 		end
 	end
-
-	defmacro cast(action, body, context \\ nil) do
-		quote do
-			context = unquote(context) || var!(context)
-			Bot.cast(var!(bot), unquote(action), unquote(body), context)
-		end
-	end
 end

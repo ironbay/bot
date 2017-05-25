@@ -1,9 +1,13 @@
 defmodule Bot.Skill do
-	defmacro __using__(_) do
+	defmacro __using__(_opts) do
 		quote do
+			import Bot.Skill
 			@before_compile Bot.Skill
 
-			def init(_bot, _args) do
+			@casts MapSet.new
+			@calls MapSet.new
+			
+			def init(_bot, args) do
 				{:ok, %{}}
 			end
 
@@ -11,32 +15,63 @@ defmodule Bot.Skill do
 		end
 	end
 
-	defmacro __before_compile__(_env) do
+	defmacro wait(do: block) do
+		actions =
+			block
+			|> Enum.map(fn {_, _, [[line | _] | _]} ->
+				{_, _, [action | _]} = line
+				action
+			end)
+			|> MapSet.new
+			|> Enum.to_list
 		quote do
-
-			def handle_cast_async(_event, _bot, _data) do
-				:ok
-			end
-
-			def handle_cast(_event, _bot, state) do
-				{:noreply, state}
-			end
-
-			def handle_call(_event, _bot, state) do
-				{:reply, nil, state}
-			end
-
-			def handle_info(event, _bot, state) do
-				{:noreply, state}
+			Task.start_link fn ->
+				bot = var!(bot)
+				context = var!(context)
+				case Bot.wait(bot, unquote(actions), context) do
+					unquote(block)
+				end
 			end
 		end
 	end
-end
 
-defmodule Bot.Skill.Sample do
-	use Bot.Skill
-
-	def handle_cast(msg = {"hello", _body, _context}, _bot, state) do
-		{:ok, state}
+	defmacro cast(action, body, context \\ nil) do
+		quote do
+			bot = var!(bot)
+			context = unquote(context) || var!(context)
+			Bot.cast(var!(bot), unquote(action), unquote(body), context)
+		end
 	end
+
+	defmacro defcast(action, body, context, state, do: block) do
+		filter = filter(action)
+		quote do
+			@casts MapSet.put(@casts, unquote(filter))
+			def handle_cast({unquote(action), unquote(body), unquote(context)}, bot, unquote(state)) do
+				var!(bot) = bot
+				unquote(block)
+			end
+		end
+	end
+
+	defmacro defcall(action, body, context, state, do: block) do
+		quote do
+			@calls MapSet.put(@calls, unquote(action))
+			def handle_call({unquote(action), unquote(body), unquote(context)}, bot, unquote(state)), do: unquote(block)
+		end
+	end
+
+	defmacro __before_compile__(env) do
+		quote do
+			def casts, do: @casts
+			def calls, do: @calls
+
+			def handle_call(event, bot, state), do: {:reply, nil, state}
+			def handle_cast(event, bot, state), do: {:noreply, state}
+			def handle_info(event, bot, state), do: {:noreply, state}
+		end
+	end
+
+	defp filter(action) when is_binary(action), do: action
+	defp filter({_, _, _}), do: "*"
 end

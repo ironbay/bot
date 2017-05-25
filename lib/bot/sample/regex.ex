@@ -6,12 +6,12 @@ defmodule Bot.Skill.Regex do
 		{:ok, %{}}
 	end
 
-	def handle_call({"regex.add", item = %{pattern: pattern, event: event}, _context}, bot, state) do
+	defcall("regex.add", item = %{pattern: pattern, event: event}, _context, state) do
 		compiled = Regex.compile! "(?i)#{pattern}"
 		{:reply, :ok, Map.put(state, compiled, event)}
 	end
 
-	def handle_cast({"chat.message", %{text: text}, context}, bot, state) do
+	defcast("chat.message", %{text: text}, context, state) do
 		state
 		|> Enum.each(fn {regex, event} ->
 			case Regex.named_captures(regex, text) do

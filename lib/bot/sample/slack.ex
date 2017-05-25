@@ -11,7 +11,7 @@ defmodule Bot.Skill.Slack do
 		}}
 	end
 
-	def handle_cast({"bot.message", text, context = %{team: team}}, _bot, state = %{team: team}) do
+	defcast("bot.message", text, context = %{team: team}, state = %{team: team}) do
 		Slack.Web.Chat.post_message(context.channel, text, %{
 			token: state.token,
 			as_user: true,
@@ -21,7 +21,7 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
-	def handle_cast({"bot.reaction", label, context = %{team: team}}, _bot, state = %{team: team}) do
+	defcast("bot.reaction", label, context = %{team: team}, state = %{team: team}) do
 		Slack.Web.Reactions.add(label, %{
 			token: state.token,
 			channel: context.channel,
@@ -30,7 +30,7 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
-	def handle_cast({"bot.reply", text, context = %{team: team}}, _bot, state = %{team: team}) do
+	defcast("bot.reply", text, context = %{team: team}, state = %{team: team}) do
 		Slack.Web.Chat.post_message(context.channel, text, %{
 			token: state.token,
 			as_user: true,
@@ -40,7 +40,7 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
-	def handle_cast({"bot.image", body = %{url: url}, context = %{team: team}}, _bot, state = %{team: team}) do
+	defcast("bot.image", body = %{url: url}, context = %{team: team}, state = %{team: team}) do
 		Slack.Web.Chat.post_message(context.channel, "", %{
 			token: state.token,
 			as_user: true,
@@ -56,7 +56,7 @@ defmodule Bot.Skill.Slack do
 		{:noreply, state}
 	end
 
-	def handle_cast({"slack.message", message, context = %{team: team}}, bot, state = %{team: team}) do
+	defcast("slack.message", message, context = %{team: team}, state = %{team: team}) do
 		text =
 			message.text
 			|> String.replace("<", "")

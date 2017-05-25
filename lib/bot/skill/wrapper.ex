@@ -10,13 +10,25 @@ defmodule Bot.Skill.Wrapper do
 	end
 
 	def init([bot, skill, args]) do
-		Bot.add_skill(bot, self())
-		IO.puts("Initializing #{skill}")
-		{:ok, data} = skill.init(bot, args)
+		send(self(), :start)
+		skill.casts
+		|> Enum.map(&Bot.subscribe(bot, self(), :cast, &1))
+		skill.calls
+		|> Enum.map(&Bot.subscribe(bot, self(), :call, &1))
 		{:ok, %{
 			bot: bot,
-			data: data,
+			data: %{},
+			args: args,
 			skill: skill,
+		}}
+	end
+
+	def handle_info(:start, state) do
+		IO.puts("Initializing #{state.skill}")
+		{:ok, data} = state.skill.init(state.bot, state.args)
+		{:noreply, %{
+			state |
+			data: data
 		}}
 	end
 
@@ -53,8 +65,6 @@ defmodule Bot.Skill.Wrapper do
 	end
 
 	def handle_cast(event = {action, body, context}, state) do
-		Task.start_link(fn -> handle_cast_async(event, state) end)
-
 		data =
 			case state.skill.handle_cast(event, state.bot, state.data) do
 				{:noreply, data} -> data

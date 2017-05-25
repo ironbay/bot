@@ -32,7 +32,7 @@ defmodule Bot.Mixfile do
 		[
 			{:slack, "~> 0.10.0"},
 			{:partisan, "~> 0.2.2"},
-			{:lasp_pg, "~> 0.0.1"},
+			{:lasp_pg, "~> 0.0.1"}
 		]
 	end
 end

@@ -2,22 +2,21 @@ defmodule Bot do
 
 	def cast(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
-		IO.inspect(msg)
+
 		bot
-		|> pending_group
+		|> skill_group(:pending, action)
 		|> publish(msg)
 
 		bot
-		|> skills
+		|> skills(:cast, action)
 		|> Enum.each(&GenServer.cast(&1, msg))
 	end
 
 	def call(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
-		IO.inspect(msg)
 		self = self()
 		bot
-		|> skills
+		|> skills(:call, action)
 		|> Stream.filter(&(&1 !== self))
 		|> Task.async_stream(&GenServer.call(&1, msg))
 		|> Stream.map(fn {:ok, value} -> value end)
@@ -26,10 +25,14 @@ defmodule Bot do
 		|> Enum.at(0)
 	end
 
-	def skills(bot) do
+	def skills(bot, type, action) do
 		bot
-		|> skill_group
+		|> skill_group(type, action)
 		|> members
+	end
+
+	def skill_group(bot, type, action) do
+		{bot, __MODULE__, type, action}
 	end
 
 	defp members(group) do
@@ -45,22 +48,14 @@ defmodule Bot do
 		|> Enum.each(fn pid -> send(pid, msg) end)
 	end
 
-	def skill_group(bot) do
-		{bot, __MODULE__}
-	end
-
-	def pending_group(bot) do
-		{bot, __MODULE__, :pending}
-	end
-
 	def start_skill(bot, skill, args \\ []) do
 		bot
 		|> Bot.Skill.Supervisor.start_child(skill, args)
 	end
 
-	def add_skill(bot, pid) do
+	def subscribe(bot, pid, type, action) do
 		bot
-		|> skill_group
+		|> skill_group(type, action)
 		|> :lasp_pg.join(pid)
 	end
 
@@ -72,26 +67,28 @@ defmodule Bot do
 		end)
 	end
 
-	def wait(bot, filter, actions) do
+	def wait(bot, actions, filter) do
 		filter = Map.delete(filter, :key)
-		# Clear existing registrations on context
-		bot
-		|> pending_group
-		|> publish({:new, filter})
 
-		# Join pending
-		bot
-		|> pending_group
-		|> :lasp_pg.join(self())
-
+		actions
+		|> Enum.each(fn action ->
+			bot
+			|> skill_group(:pending, action)
+			|> publish({:new, filter})
+			
+			subscribe(bot, self(), :pending, action)
+		end)
 
 		# Event loop
-		result = loop(filter, MapSet.new(actions))
+		result = loop(filter)
 
 		# Leave pending group
-		bot
-		|> pending_group
-		|> :lasp_pg.leave(self())
+		actions
+		|> Enum.each(fn action ->
+			bot
+			|> skill_group(:pending, action)
+			|> :lasp_pg.leave(self())
+		end)
 
 		# Process result
 		case result do
@@ -100,14 +97,15 @@ defmodule Bot do
 		end
 	end
 
-	defp loop(filter, actions) do
+	defp loop(filter) do
 		receive do
 			{:new, ^filter} ->
+				IO.inspect("CLOSED")
 				:stop
 			event = {action, _body, context} ->
 				cond do
-					compare(filter, context) && MapSet.member?(actions, action) -> event
-					true -> loop(filter, actions)
+					compare(filter, context) -> event
+					true -> loop(filter)
 				end
 
 		end

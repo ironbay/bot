@@ -16,7 +16,6 @@ defmodule Bot.Skill.Delay do
 		{:noreply, state}
 	end
 
-
 	def handle_info({:DOWN, _, _, _, _}, state) do
 		Process.send_after(self(), :start, 5000)
 		{:noreply, state}

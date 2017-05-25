@@ -1,0 +1,1233 @@
+2017-05-24 17:01:12.059 [error] <0.296.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.301.0> exit with reason normal in context child_terminated
+2017-05-24 17:01:12.080 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 17:01:12.083 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 17:01:12.083 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 17:01:12.084 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 17:01:12.085 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 17:01:12.124 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 17:01:12.127 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 17:01:12.137 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 17:01:12.148 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 17:01:12.158 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 17:01:12.158 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 17:01:12.164 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 17:01:12.166 [info] <0.424.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 17:01:12.168 [info] <0.424.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 17:01:12.169 [info] <0.424.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 17:01:12.170 [info] <0.424.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 17:01:12.171 [info] <0.424.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 17:01:12.172 [info] <0.424.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 17:01:12.173 [info] <0.424.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 17:01:12.173 [info] <0.424.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 17:01:12.175 [info] <0.424.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 17:01:12.188 [info] <0.424.0>@lasp_sup:init:88 Membership: false
+2017-05-24 17:01:12.188 [info] <0.424.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 17:01:12.191 [info] <0.424.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 17:01:12.193 [info] <0.424.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 17:01:12.194 [info] <0.424.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 17:01:12.195 [info] <0.424.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 17:01:12.195 [info] <0.424.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 17:01:12.196 [info] <0.424.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 17:01:12.197 [info] <0.424.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 17:01:12.198 [info] <0.424.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 17:01:12.198 [info] <0.424.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 17:01:12.199 [info] <0.424.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 17:01:12.211 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 17:01:12.213 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 17:01:12.213 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 17:01:25.056 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 17:59:29.038 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 17:59:29.052 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 17:59:29.054 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 17:59:29.055 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 17:59:29.056 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 17:59:29.057 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 17:59:29.088 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 17:59:29.091 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 17:59:29.100 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 17:59:29.110 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 17:59:29.112 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 17:59:29.113 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 17:59:29.116 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 17:59:29.118 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 17:59:29.119 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 17:59:29.120 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 17:59:29.121 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 17:59:29.121 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 17:59:29.122 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 17:59:29.123 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 17:59:29.124 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 17:59:29.126 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 17:59:29.138 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 17:59:29.139 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 17:59:29.142 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 17:59:29.143 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 17:59:29.144 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 17:59:29.145 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 17:59:29.146 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 17:59:29.146 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 17:59:29.147 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 17:59:29.148 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 17:59:29.149 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 17:59:29.149 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 17:59:29.160 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 17:59:29.162 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 17:59:29.163 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:04:03.307 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:04:03.322 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:04:03.325 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:04:03.325 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:04:03.326 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:04:03.326 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:04:03.357 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:04:03.359 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:04:03.368 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:04:03.376 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:04:03.378 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:04:03.378 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:04:03.383 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:04:03.385 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:04:03.387 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:04:03.388 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:04:03.388 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:04:03.389 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:04:03.390 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:04:03.390 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:04:03.391 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:04:03.393 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:04:03.405 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:04:03.406 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:04:03.408 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:04:03.410 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:04:03.411 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:04:03.411 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:04:03.412 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:04:03.413 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:04:03.413 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:04:03.414 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:04:03.415 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:04:03.415 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:04:03.425 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:04:03.426 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:04:03.427 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:04:41.237 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:04:41.250 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:04:41.253 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:04:41.253 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:04:41.254 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:04:41.255 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:04:41.285 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:04:41.287 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:04:41.296 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:04:41.308 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:04:41.310 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:04:41.310 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:04:41.315 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:04:41.316 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:04:41.318 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:04:41.319 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:04:41.320 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:04:41.320 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:04:41.321 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:04:41.323 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:04:41.324 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:04:41.325 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:04:41.338 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:04:41.338 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:04:41.341 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:04:41.342 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:04:41.343 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:04:41.344 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:04:41.344 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:04:41.345 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:04:41.346 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:04:41.347 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:04:41.348 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:04:41.349 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:04:41.358 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:04:41.360 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:04:41.361 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:05:47.375 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:05:47.391 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:05:47.393 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:05:47.394 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:05:47.394 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:05:47.395 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:05:47.425 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:05:47.427 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:05:47.438 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:05:47.447 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:05:47.449 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:05:47.449 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:05:47.453 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:05:47.455 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:05:47.457 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:05:47.458 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:05:47.458 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:05:47.459 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:05:47.460 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:05:47.461 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:05:47.462 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:05:47.463 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:05:47.475 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:05:47.476 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:05:47.479 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:05:47.480 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:05:47.481 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:05:47.482 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:05:47.482 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:05:47.483 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:05:47.484 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:05:47.485 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:05:47.485 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:05:47.486 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:05:47.496 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:05:47.497 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:05:47.498 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:07:22.063 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:07:22.078 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:07:22.081 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:07:22.081 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:07:22.082 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:07:22.083 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:07:22.114 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:07:22.116 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:07:22.125 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:07:22.134 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:07:22.136 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:07:22.136 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:07:22.141 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:07:22.142 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:07:22.144 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:07:22.145 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:07:22.146 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:07:22.146 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:07:22.147 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:07:22.148 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:07:22.148 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:07:22.150 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:07:22.162 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:07:22.163 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:07:22.166 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:07:22.167 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:07:22.168 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:07:22.169 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:07:22.170 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:07:22.170 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:07:22.171 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:07:22.172 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:07:22.173 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:07:22.173 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:07:22.183 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:07:22.184 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:07:22.185 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:09:51.331 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:09:51.345 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:09:51.348 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:09:51.348 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:09:51.349 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:09:51.350 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:09:51.380 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:09:51.382 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:09:51.392 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:09:51.401 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:09:51.402 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:09:51.402 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:09:51.407 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:09:51.409 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:09:51.410 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:09:51.411 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:09:51.412 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:09:51.413 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:09:51.413 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:09:51.414 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:09:51.415 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:09:51.416 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:09:51.428 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:09:51.429 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:09:51.432 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:09:51.433 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:09:51.434 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:09:51.435 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:09:51.435 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:09:51.436 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:09:51.437 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:09:51.438 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:09:51.438 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:09:51.439 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:09:51.448 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:09:51.450 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:09:51.451 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:11:29.931 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:11:29.944 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:11:29.947 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:11:29.947 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:11:29.948 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:11:29.949 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:11:29.980 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:11:29.983 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:11:29.992 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:11:30.001 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:11:30.005 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:11:30.005 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:11:30.008 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:11:30.010 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:11:30.012 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:11:30.013 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:11:30.013 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:11:30.014 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:11:30.015 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:11:30.016 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:11:30.017 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:11:30.018 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:11:30.031 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:11:30.032 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:11:30.034 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:11:30.036 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:11:30.037 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:11:30.038 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:11:30.038 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:11:30.039 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:11:30.040 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:11:30.041 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:11:30.041 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:11:30.042 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:11:30.052 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:11:30.054 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:11:30.055 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:12:05.989 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:12:06.003 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:12:06.006 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:12:06.006 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:12:06.007 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:12:06.008 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:12:06.039 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:12:06.041 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:12:06.050 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:12:06.060 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:12:06.061 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:12:06.061 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:12:06.066 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:12:06.068 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:12:06.070 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:12:06.070 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:12:06.071 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:12:06.072 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:12:06.072 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:12:06.073 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:12:06.074 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:12:06.075 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:12:06.088 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:12:06.088 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:12:06.091 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:12:06.093 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:12:06.093 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:12:06.094 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:12:06.095 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:12:06.095 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:12:06.096 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:12:06.097 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:12:06.098 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:12:06.098 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:12:06.108 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:12:06.110 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:12:06.111 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:12:15.748 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:12:15.762 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:12:15.764 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:12:15.765 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:12:15.766 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:12:15.766 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:12:15.798 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:12:15.801 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:12:15.810 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:12:15.818 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:12:15.820 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:12:15.820 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:12:15.825 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:12:15.826 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:12:15.828 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:12:15.829 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:12:15.830 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:12:15.830 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:12:15.831 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:12:15.832 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:12:15.833 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:12:15.834 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:12:15.846 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:12:15.847 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:12:15.850 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:12:15.851 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:12:15.852 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:12:15.853 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:12:15.853 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:12:15.854 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:12:15.855 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:12:15.855 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:12:15.856 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:12:15.857 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:12:15.866 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:12:15.868 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:12:15.869 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:15:50.058 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:15:50.078 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:15:50.081 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:15:50.081 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:15:50.082 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:15:50.083 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:15:50.113 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:15:50.116 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:15:50.126 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:15:50.134 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:15:50.136 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:15:50.136 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:15:50.141 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:15:50.142 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:15:50.144 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:15:50.145 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:15:50.146 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:15:50.146 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:15:50.147 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:15:50.148 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:15:50.149 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:15:50.150 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:15:50.162 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:15:50.163 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:15:50.166 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:15:50.167 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:15:50.168 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:15:50.169 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:15:50.169 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:15:50.170 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:15:50.171 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:15:50.171 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:15:50.172 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:15:50.173 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:15:50.182 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:15:50.184 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:15:50.185 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:31:15.767 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:31:15.783 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:31:15.785 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:31:15.786 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:31:15.786 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:31:15.787 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:31:15.819 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:31:15.821 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:31:15.831 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:31:15.839 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:31:15.841 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:31:15.841 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:31:15.846 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:31:15.847 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:31:15.849 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:31:15.850 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:31:15.851 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:31:15.851 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:31:15.852 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:31:15.853 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:31:15.853 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:31:15.855 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:31:15.868 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:31:15.868 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:31:15.871 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:31:15.873 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:31:15.873 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:31:15.874 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:31:15.875 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:31:15.875 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:31:15.876 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:31:15.877 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:31:15.877 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:31:15.878 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:31:15.888 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:31:15.889 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:31:15.890 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:31:25.762 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:31:25.783 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:31:25.786 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:31:25.787 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:31:25.787 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:31:25.788 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:31:25.821 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:31:25.824 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:31:25.833 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:31:25.843 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:31:25.846 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:31:25.846 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:31:25.850 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:31:25.851 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:31:25.853 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:31:25.854 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:31:25.854 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:31:25.855 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:31:25.856 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:31:25.857 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:31:25.858 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:31:25.859 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:31:25.871 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:31:25.872 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:31:25.875 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:31:25.876 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:31:25.877 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:31:25.878 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:31:25.879 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:31:25.879 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:31:25.880 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:31:25.881 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:31:25.882 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:31:25.882 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:31:25.892 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:31:25.893 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:31:25.894 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:32:01.759 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:32:01.775 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:32:01.777 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:32:01.778 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:32:01.779 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:32:01.780 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:32:01.811 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:32:01.813 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:32:01.822 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:32:01.831 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:32:01.833 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:32:01.833 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:32:01.837 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:32:01.839 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:32:01.840 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:32:01.841 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:32:01.842 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:32:01.843 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:32:01.843 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:32:01.844 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:32:01.845 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:32:01.846 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:32:01.859 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:32:01.859 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:32:01.862 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:32:01.864 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:32:01.864 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:32:01.865 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:32:01.866 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:32:01.867 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:32:01.867 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:32:01.868 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:32:01.869 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:32:01.870 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:32:01.880 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:32:01.881 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:32:01.882 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:32:11.457 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:32:11.477 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:32:11.480 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:32:11.481 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:32:11.481 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:32:11.482 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:32:11.512 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:32:11.514 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:32:11.523 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:32:11.532 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:32:11.533 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:32:11.533 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:32:11.538 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:32:11.540 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:32:11.542 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:32:11.543 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:32:11.544 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:32:11.544 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:32:11.545 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:32:11.546 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:32:11.547 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:32:11.548 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:32:11.560 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:32:11.561 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:32:11.564 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:32:11.565 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:32:11.566 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:32:11.567 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:32:11.568 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:32:11.568 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:32:11.569 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:32:11.570 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:32:11.570 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:32:11.571 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:32:11.581 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:32:11.583 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:32:11.584 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:32:58.005 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 18:32:58.020 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:32:58.023 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:32:58.024 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:32:58.025 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:32:58.025 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:32:58.055 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:32:58.057 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:32:58.065 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:32:58.073 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:32:58.075 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:32:58.075 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:32:58.079 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:32:58.081 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:32:58.083 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:32:58.083 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:32:58.084 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:32:58.085 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:32:58.086 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:32:58.086 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:32:58.087 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:32:58.088 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:32:58.100 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:32:58.101 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:32:58.104 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:32:58.105 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:32:58.106 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:32:58.107 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:32:58.107 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:32:58.108 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:32:58.109 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:32:58.109 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:32:58.110 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:32:58.111 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:32:58.121 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:32:58.122 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:32:58.123 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:33:09.141 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:33:09.157 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:33:09.160 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:33:09.160 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:33:09.161 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:33:09.162 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:33:09.192 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:33:09.195 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:33:09.205 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:33:09.213 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:33:09.214 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:33:09.214 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:33:09.219 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:33:09.220 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:33:09.222 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:33:09.223 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:33:09.224 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:33:09.224 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:33:09.225 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:33:09.226 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:33:09.226 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:33:09.228 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:33:09.240 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:33:09.240 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:33:09.243 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:33:09.245 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:33:09.245 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:33:09.246 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:33:09.247 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:33:09.248 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:33:09.248 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:33:09.249 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:33:09.250 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:33:09.250 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:33:09.260 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:33:09.262 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:33:09.263 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:35:19.295 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:35:19.310 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:35:19.313 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:35:19.314 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:35:19.314 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:35:19.315 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:35:19.346 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:35:19.348 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:35:19.357 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:35:19.366 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:35:19.367 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:35:19.368 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:35:19.372 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:35:19.374 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:35:19.375 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:35:19.376 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:35:19.377 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:35:19.377 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:35:19.378 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:35:19.379 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:35:19.379 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:35:19.381 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:35:19.393 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:35:19.394 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:35:19.396 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:35:19.398 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:35:19.398 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:35:19.399 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:35:19.400 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:35:19.401 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:35:19.401 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:35:19.402 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:35:19.403 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:35:19.403 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:35:19.413 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:35:19.415 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:35:19.416 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:46:39.536 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 18:46:39.549 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:46:39.552 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:46:39.552 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:46:39.553 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:46:39.554 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:46:39.585 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:46:39.588 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:46:39.597 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:46:39.605 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:46:39.606 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:46:39.607 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:46:39.611 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:46:39.612 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:46:39.614 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:46:39.615 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:46:39.615 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:46:39.616 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:46:39.617 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:46:39.617 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:46:39.618 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:46:39.619 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:46:39.632 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:46:39.633 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:46:39.635 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:46:39.637 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:46:39.638 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:46:39.638 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:46:39.639 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:46:39.640 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:46:39.641 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:46:39.641 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:46:39.642 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:46:39.643 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:46:39.653 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:46:39.654 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:46:39.655 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:49:19.193 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 18:49:19.213 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:49:19.216 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:49:19.217 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:49:19.217 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:49:19.218 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:49:19.250 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:49:19.252 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:49:19.261 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:49:19.270 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:49:19.272 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:49:19.272 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:49:19.277 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:49:19.280 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:49:19.282 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:49:19.282 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:49:19.283 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:49:19.284 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:49:19.284 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:49:19.285 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:49:19.286 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:49:19.287 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:49:19.302 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:49:19.303 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:49:19.307 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:49:19.309 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:49:19.310 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:49:19.311 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:49:19.312 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:49:19.313 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:49:19.314 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:49:19.315 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:49:19.316 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:49:19.317 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:49:19.332 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:49:19.333 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:49:19.334 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 18:50:56.413 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 18:50:56.428 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 18:50:56.431 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 18:50:56.431 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 18:50:56.432 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 18:50:56.433 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 18:50:56.464 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 18:50:56.466 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 18:50:56.475 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 18:50:56.484 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 18:50:56.485 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 18:50:56.486 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 18:50:56.490 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 18:50:56.492 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 18:50:56.494 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 18:50:56.494 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 18:50:56.495 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 18:50:56.496 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 18:50:56.496 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 18:50:56.497 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 18:50:56.498 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 18:50:56.499 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 18:50:56.511 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 18:50:56.512 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 18:50:56.515 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 18:50:56.516 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 18:50:56.517 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 18:50:56.517 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 18:50:56.518 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 18:50:56.519 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 18:50:56.520 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 18:50:56.520 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 18:50:56.521 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 18:50:56.522 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 18:50:56.531 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 18:50:56.533 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 18:50:56.534 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:12:05.169 [error] <0.253.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.258.0> exit with reason normal in context child_terminated
+2017-05-24 19:12:05.182 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:12:05.184 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:12:05.185 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:12:05.185 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:12:05.186 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:12:05.217 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:12:05.219 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:12:05.228 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:12:05.236 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:12:05.238 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:12:05.238 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:12:05.243 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:12:05.245 [info] <0.381.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:12:05.246 [info] <0.381.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:12:05.247 [info] <0.381.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:12:05.248 [info] <0.381.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:12:05.249 [info] <0.381.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:12:05.250 [info] <0.381.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:12:05.250 [info] <0.381.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:12:05.251 [info] <0.381.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:12:05.253 [info] <0.381.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:12:05.265 [info] <0.381.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:12:05.266 [info] <0.381.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:12:05.268 [info] <0.381.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:12:05.271 [info] <0.381.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:12:05.272 [info] <0.381.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:12:05.272 [info] <0.381.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:12:05.273 [info] <0.381.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:12:05.274 [info] <0.381.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:12:05.275 [info] <0.381.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:12:05.275 [info] <0.381.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:12:05.276 [info] <0.381.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:12:05.277 [info] <0.381.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:12:05.286 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:12:05.288 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:12:05.288 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:12:36.359 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 19:12:36.371 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:12:36.374 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:12:36.375 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:12:36.375 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:12:36.376 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:12:36.406 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:12:36.409 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:12:36.417 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:12:36.425 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:12:36.427 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:12:36.428 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:12:36.432 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:12:36.433 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:12:36.435 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:12:36.436 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:12:36.437 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:12:36.437 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:12:36.438 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:12:36.439 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:12:36.439 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:12:36.441 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:12:36.454 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:12:36.454 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:12:36.457 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:12:36.458 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:12:36.459 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:12:36.460 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:12:36.461 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:12:36.461 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:12:36.462 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:12:36.463 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:12:36.463 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:12:36.464 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:12:36.475 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:12:36.476 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:12:36.477 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:13:54.456 [error] <0.229.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.234.0> exit with reason normal in context child_terminated
+2017-05-24 19:13:54.470 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:13:54.473 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:13:54.474 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:13:54.474 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:13:54.475 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:13:54.506 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:13:54.508 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:13:54.517 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:13:54.525 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:13:54.527 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:13:54.527 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:13:54.531 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:13:54.532 [info] <0.333.0> alarm_handler: {set,{{disk_almost_full,"/boot"},[]}}
+2017-05-24 19:13:54.533 [info] <0.357.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:13:54.535 [info] <0.357.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:13:54.536 [info] <0.357.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:13:54.537 [info] <0.357.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:13:54.538 [info] <0.357.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:13:54.538 [info] <0.357.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:13:54.539 [info] <0.357.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:13:54.540 [info] <0.357.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:13:54.541 [info] <0.357.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:13:54.554 [info] <0.357.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:13:54.554 [info] <0.357.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:13:54.557 [info] <0.357.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:13:54.558 [info] <0.357.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:13:54.559 [info] <0.357.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:13:54.560 [info] <0.357.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:13:54.561 [info] <0.357.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:13:54.561 [info] <0.357.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:13:54.562 [info] <0.357.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:13:54.563 [info] <0.357.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:13:54.564 [info] <0.357.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:13:54.564 [info] <0.357.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:13:54.574 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:13:54.576 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:13:54.577 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:14:18.253 [error] <0.420.0> CRASH REPORT Process <0.420.0> with 0 neighbours exited with reason: call to undefined function 'Elixir.Bot.Skill.Hello':casts() in gen_server:init_it/6 line 352
+2017-05-24 19:14:18.253 [error] <0.419.0> CRASH REPORT Process <0.419.0> with 0 neighbours exited with reason: no match of right hand value {error,{undef,[{'Elixir.Bot.Skill.Hello',casts,[],[]},{'Elixir.Bot.Skill.Wrapper',init,1,[{file,"lib/bot/skill/wrapper.ex"},{line,14}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,328}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}} in 'Elixir.Bot.Skill.Delay':handle_info/2 line 14 in gen_server:init_it/6 line 352
+2017-05-24 19:19:37.769 [error] <0.245.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.250.0> exit with reason normal in context child_terminated
+2017-05-24 19:19:37.787 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:19:37.790 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:19:37.790 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:19:37.791 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:19:37.792 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:19:37.822 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:19:37.825 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:19:37.834 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:19:37.843 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:19:37.844 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:19:37.844 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:19:37.849 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:19:37.850 [info] <0.373.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:19:37.852 [info] <0.373.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:19:37.853 [info] <0.373.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:19:37.854 [info] <0.373.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:19:37.855 [info] <0.373.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:19:37.855 [info] <0.373.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:19:37.856 [info] <0.373.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:19:37.857 [info] <0.373.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:19:37.858 [info] <0.373.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:19:37.870 [info] <0.373.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:19:37.871 [info] <0.373.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:19:37.874 [info] <0.373.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:19:37.875 [info] <0.373.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:19:37.876 [info] <0.373.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:19:37.877 [info] <0.373.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:19:37.877 [info] <0.373.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:19:37.878 [info] <0.373.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:19:37.879 [info] <0.373.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:19:37.879 [info] <0.373.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:19:37.880 [info] <0.373.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:19:37.881 [info] <0.373.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:19:37.890 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:19:37.891 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:19:37.892 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:20:50.265 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 19:20:50.278 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:20:50.280 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:20:50.281 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:20:50.282 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:20:50.282 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:20:50.314 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:20:50.316 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:20:50.325 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:20:50.333 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:20:50.335 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:20:50.336 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:20:50.340 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:20:50.342 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:20:50.344 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:20:50.344 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:20:50.345 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:20:50.346 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:20:50.346 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:20:50.347 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:20:50.348 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:20:50.349 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:20:50.362 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:20:50.362 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:20:50.365 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:20:50.367 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:20:50.367 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:20:50.368 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:20:50.369 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:20:50.370 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:20:50.370 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:20:50.371 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:20:50.372 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:20:50.372 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:20:50.382 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:20:50.383 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:20:50.384 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:21:19.325 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 19:21:19.339 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:21:19.341 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:21:19.342 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:21:19.342 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:21:19.343 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:21:19.376 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:21:19.379 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:21:19.388 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:21:19.397 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:21:19.399 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:21:19.399 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:21:19.406 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:21:19.408 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:21:19.411 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:21:19.412 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:21:19.413 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:21:19.414 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:21:19.414 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:21:19.415 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:21:19.416 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:21:19.418 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:21:19.435 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:21:19.436 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:21:19.440 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:21:19.442 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:21:19.443 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:21:19.444 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:21:19.444 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:21:19.445 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:21:19.446 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:21:19.446 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:21:19.447 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:21:19.448 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:21:19.458 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:21:19.460 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:21:19.461 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:22:08.793 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 19:22:08.810 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:22:08.813 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:22:08.814 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:22:08.815 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:22:08.816 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:22:08.849 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:22:08.851 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:22:08.861 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:22:08.871 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:22:08.873 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:22:08.873 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:22:08.878 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:22:08.879 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:22:08.881 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:22:08.882 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:22:08.882 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:22:08.883 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:22:08.884 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:22:08.885 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:22:08.886 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:22:08.887 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:22:08.899 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:22:08.900 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:22:08.903 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:22:08.905 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:22:08.905 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:22:08.906 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:22:08.907 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:22:08.908 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:22:08.908 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:22:08.909 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:22:08.910 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:22:08.911 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:22:08.921 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:22:08.922 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:22:08.923 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:22:10.851 [error] <0.441.0> ** Task <0.441.0> terminating
+** Started from <0.435.0>
+** When function  == #Fun<Elixir.Bot.Skill.Hello.0.26567824>
+**      arguments == []
+** Reason for termination == 
+** {{badmap,nil},[{maps,remove,[key,nil],[]},{'Elixir.Bot',wait,3,[{file,"lib/bot.ex"},{line,75}]},{'Elixir.Bot.Skill.Hello','-handle_cast/3-fun-1-',2,[{file,"lib/bot/sample/hello.ex"},{line,23}]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,85}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-05-24 19:22:10.860 [error] <0.441.0> CRASH REPORT Process <0.441.0> with 1 neighbours exited with reason: {{badmap,nil},[{maps,remove,[key,nil],[]},{'Elixir.Bot',wait,3,[{file,"lib/bot.ex"},{line,75}]},{'Elixir.Bot.Skill.Hello','-handle_cast/3-fun-1-',2,[{file,"lib/bot/sample/hello.ex"},{line,23}]},{'Elixir.Task.Supervised',do_apply,2,[{file,"lib/task/supervised.ex"},{line,85}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]} in 'Elixir.Task.Supervised':exit/4 line 116
+2017-05-24 19:22:20.512 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 19:22:20.531 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:22:20.534 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:22:20.534 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:22:20.535 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:22:20.535 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:22:20.566 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:22:20.569 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:22:20.577 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:22:20.586 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:22:20.587 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:22:20.588 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:22:20.593 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:22:20.594 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:22:20.596 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:22:20.597 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:22:20.598 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:22:20.598 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:22:20.599 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:22:20.600 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:22:20.601 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:22:20.602 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:22:20.614 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:22:20.615 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:22:20.618 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:22:20.619 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:22:20.620 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:22:20.620 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:22:20.621 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:22:20.622 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:22:20.622 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:22:20.623 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:22:20.624 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:22:20.624 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:22:20.634 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:22:20.636 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:22:20.636 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:26:08.731 [error] <0.217.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.222.0> exit with reason normal in context child_terminated
+2017-05-24 19:26:08.745 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:26:08.747 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:26:08.748 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:26:08.748 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:26:08.749 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:26:08.780 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:26:08.782 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:26:08.793 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:26:08.803 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:26:08.805 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:26:08.805 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:26:08.810 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:26:08.811 [info] <0.345.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:26:08.813 [info] <0.345.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:26:08.814 [info] <0.345.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:26:08.814 [info] <0.345.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:26:08.815 [info] <0.345.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:26:08.816 [info] <0.345.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:26:08.817 [info] <0.345.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:26:08.817 [info] <0.345.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:26:08.819 [info] <0.345.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:26:08.832 [info] <0.345.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:26:08.833 [info] <0.345.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:26:08.836 [info] <0.345.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:26:08.837 [info] <0.345.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:26:08.838 [info] <0.345.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:26:08.839 [info] <0.345.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:26:08.839 [info] <0.345.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:26:08.840 [info] <0.345.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:26:08.841 [info] <0.345.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:26:08.841 [info] <0.345.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:26:08.842 [info] <0.345.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:26:08.843 [info] <0.345.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:26:08.853 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:26:08.854 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:26:08.855 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 19:26:16.630 [error] <0.217.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.222.0> exit with reason normal in context child_terminated
+2017-05-24 19:37:13.378 [error] <0.202.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.207.0> exit with reason normal in context child_terminated
+2017-05-24 19:37:13.396 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 19:37:13.399 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 19:37:13.399 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 19:37:13.400 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 19:37:13.401 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 19:37:13.436 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 19:37:13.440 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 19:37:13.452 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 19:37:13.463 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 19:37:13.464 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 19:37:13.465 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 19:37:13.470 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 19:37:13.471 [info] <0.330.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 19:37:13.473 [info] <0.330.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 19:37:13.474 [info] <0.330.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 19:37:13.475 [info] <0.330.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 19:37:13.476 [info] <0.330.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 19:37:13.476 [info] <0.330.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 19:37:13.477 [info] <0.330.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 19:37:13.478 [info] <0.330.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 19:37:13.479 [info] <0.330.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 19:37:13.493 [info] <0.330.0>@lasp_sup:init:88 Membership: false
+2017-05-24 19:37:13.494 [info] <0.330.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 19:37:13.497 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 19:37:13.498 [info] <0.330.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 19:37:13.499 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 19:37:13.500 [info] <0.330.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 19:37:13.501 [info] <0.330.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 19:37:13.502 [info] <0.330.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 19:37:13.503 [info] <0.330.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 19:37:13.503 [info] <0.330.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 19:37:13.504 [info] <0.330.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 19:37:13.505 [info] <0.330.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 19:37:13.515 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 19:37:13.517 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 19:37:13.518 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 20:50:27.703 [error] <0.247.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.252.0> exit with reason normal in context child_terminated
+2017-05-24 20:50:27.727 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 20:50:27.730 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 20:50:27.731 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 20:50:27.731 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 20:50:27.732 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 20:50:27.765 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 20:50:27.767 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 20:50:27.777 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 20:50:27.785 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 20:50:27.786 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 20:50:27.786 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 20:50:27.791 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 20:50:27.793 [info] <0.375.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 20:50:27.795 [info] <0.375.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 20:50:27.796 [info] <0.375.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 20:50:27.796 [info] <0.375.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 20:50:27.797 [info] <0.375.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 20:50:27.798 [info] <0.375.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 20:50:27.798 [info] <0.375.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 20:50:27.799 [info] <0.375.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 20:50:27.801 [info] <0.375.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 20:50:27.813 [info] <0.375.0>@lasp_sup:init:88 Membership: false
+2017-05-24 20:50:27.814 [info] <0.375.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 20:50:27.816 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 20:50:27.818 [info] <0.375.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 20:50:27.818 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 20:50:27.819 [info] <0.375.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 20:50:27.820 [info] <0.375.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 20:50:27.821 [info] <0.375.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 20:50:27.821 [info] <0.375.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 20:50:27.822 [info] <0.375.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 20:50:27.823 [info] <0.375.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 20:50:27.824 [info] <0.375.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 20:50:27.833 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 20:50:27.835 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 20:50:27.835 [info] <0.31.0> Application bot started on node nonode@nohost
+2017-05-24 20:51:49.129 [error] <0.235.0> Supervisor 'Elixir.Logger.Supervisor' had child 'Elixir.Logger.ErrorHandler' started with 'Elixir.Logger.Watcher':watcher(error_logger, 'Elixir.Logger.ErrorHandler', {true,false,500}) at <0.240.0> exit with reason normal in context child_terminated
+2017-05-24 20:51:49.143 [info] <0.31.0> Application lager started on node nonode@nohost
+2017-05-24 20:51:49.146 [info] <0.31.0> Application types started on node nonode@nohost
+2017-05-24 20:51:49.147 [info] <0.31.0> Application time_compat started on node nonode@nohost
+2017-05-24 20:51:49.147 [info] <0.31.0> Application rand_compat started on node nonode@nohost
+2017-05-24 20:51:49.148 [info] <0.31.0> Application acceptor_pool started on node nonode@nohost
+2017-05-24 20:51:49.178 [info] <0.31.0> Application partisan started on node nonode@nohost
+2017-05-24 20:51:49.180 [info] <0.31.0> Application gen_flow started on node nonode@nohost
+2017-05-24 20:51:49.190 [info] <0.31.0> Application sasl started on node nonode@nohost
+2017-05-24 20:51:49.200 [info] <0.31.0> Application os_mon started on node nonode@nohost
+2017-05-24 20:51:49.201 [info] <0.31.0> Application riak_dt started on node nonode@nohost
+2017-05-24 20:51:49.202 [info] <0.31.0> Application lasp_support started on node nonode@nohost
+2017-05-24 20:51:49.206 [info] <0.31.0> Application plumtree started on node nonode@nohost
+2017-05-24 20:51:49.208 [info] <0.363.0>@lasp_sup:configure_defaults:219 Setting jitter: false
+2017-05-24 20:51:49.210 [info] <0.363.0>@lasp_sup:configure_defaults:224 Setting tutorial: false
+2017-05-24 20:51:49.211 [info] <0.363.0>@lasp_sup:configure_defaults:229 Setting event interval: 0
+2017-05-24 20:51:49.211 [info] <0.363.0>@lasp_sup:configure_defaults:234 Setting max events: 1000
+2017-05-24 20:51:49.212 [info] <0.363.0>@lasp_sup:configure_defaults:239 Setting extended logging: false
+2017-05-24 20:51:49.213 [info] <0.363.0>@lasp_sup:configure_defaults:244 Setting mailbox logging: false
+2017-05-24 20:51:49.214 [info] <0.363.0>@lasp_sup:configure_defaults:249 Setting operation mode: state_based
+2017-05-24 20:51:49.214 [info] <0.363.0>@lasp_sup:configure_defaults:254 Setting set type: orset
+2017-05-24 20:51:49.216 [info] <0.363.0>@lasp_sup:configure_defaults:267 Setting broadcast: false
+2017-05-24 20:51:49.228 [info] <0.363.0>@lasp_sup:init:88 Membership: false
+2017-05-24 20:51:49.228 [info] <0.363.0>@lasp_sup:init:106 Workflow: false
+2017-05-24 20:51:49.231 [info] <0.363.0>@lasp_sup:advertisement_counter_child_specs:384 AdClientEnabled: false
+2017-05-24 20:51:49.233 [info] <0.363.0>@lasp_sup:advertisement_counter_child_specs:417 AdServerEnabled: false
+2017-05-24 20:51:49.233 [info] <0.363.0>@lasp_sup:game_tournament_child_specs:447 TournClientEnabled: false
+2017-05-24 20:51:49.234 [info] <0.363.0>@lasp_sup:game_tournament_child_specs:466 TournServerEnabled: false
+2017-05-24 20:51:49.235 [info] <0.363.0>@lasp_sup:throughput_child_specs:489 ThroughputType: gset
+2017-05-24 20:51:49.236 [info] <0.363.0>@lasp_sup:throughput_child_specs:497 ThroughputClientEnabled: false
+2017-05-24 20:51:49.236 [info] <0.363.0>@lasp_sup:throughput_child_specs:516 ThroughputServerEnabled: false
+2017-05-24 20:51:49.237 [info] <0.363.0>@lasp_sup:divergence_child_specs:539 DivergenceType: gcounter
+2017-05-24 20:51:49.238 [info] <0.363.0>@lasp_sup:divergence_child_specs:547 DivergenceClientEnabled: false
+2017-05-24 20:51:49.238 [info] <0.363.0>@lasp_sup:divergence_child_specs:566 DivergenceServerEnabled: false
+2017-05-24 20:51:49.250 [info] <0.31.0> Application lasp started on node nonode@nohost
+2017-05-24 20:51:49.251 [info] <0.31.0> Application lasp_pg started on node nonode@nohost
+2017-05-24 20:51:49.252 [info] <0.31.0> Application bot started on node nonode@nohost
