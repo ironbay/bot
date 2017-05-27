@@ -32,7 +32,7 @@ defmodule Bot.Skill.Wrapper do
 		}}
 	end
 
-	def handle_info({:response, event = {action, body, context}, payload}, state) do
+	def handle_info({:response, event = {_action, _body, context}, payload}, state) do
 		data =
 			case state.skill.handle_response(event, payload, state.bot, state.data) do
 				{:noreply, data} -> data
@@ -64,7 +64,7 @@ defmodule Bot.Skill.Wrapper do
 		end
 	end
 
-	def handle_cast(event = {action, body, context}, state) do
+	def handle_cast(event = {_action, _body, context}, state) do
 		data =
 			case state.skill.handle_cast(event, state.bot, state.data) do
 				{:noreply, data} -> data
@@ -85,20 +85,12 @@ defmodule Bot.Skill.Wrapper do
 		state.skill.handle_cast_async(msg, state.bot, state.data)
 	end
 
-	def handle_call(msg = {action, body, context}, _from, state) do
+	def handle_call(msg = {_action, _body, _context}, _from, state) do
 		{:reply, value, data} = state.skill.handle_call(msg, state.bot, state.data)
 		{:reply, value, %{
 			state |
 			data: data
 		}}
-	end
-
-	defp response?(filter, context, action, actions) do
-		compare(filter, context) && MapSet.member?(actions, action)
-	end
-
-	defp compare(child, parent) do
-		child == Map.take(parent, Map.keys(child))
 	end
 
 end

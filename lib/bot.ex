@@ -1,4 +1,5 @@
 defmodule Bot do
+	@group Bot.Group.PG
 
 	def cast(bot, action, body \\ %{}, context \\ %{}) do
 		msg = {action, body, context}
@@ -28,23 +29,16 @@ defmodule Bot do
 	def skills(bot, type, action) do
 		bot
 		|> skill_group(type, action)
-		|> members
+		|> @group.members
 	end
 
 	def skill_group(bot, type, action) do
 		{bot, __MODULE__, type, action}
 	end
 
-	defp members(group) do
-		{:ok, result} =
-            group
-			|> :lasp_pg.members
-		result |> :sets.to_list
-	end
-
 	defp publish(group, msg) do
 		group
-        |> members
+        |> @group.members
 		|> Enum.each(fn pid -> send(pid, msg) end)
 	end
 
@@ -56,7 +50,7 @@ defmodule Bot do
 	def subscribe(bot, pid, type, action) do
 		bot
 		|> skill_group(type, action)
-		|> :lasp_pg.join(pid)
+		|> @group.join(pid)
 	end
 
 	def wait_async(bot, filter, actions, payload \\ []) do
@@ -87,7 +81,7 @@ defmodule Bot do
 		|> Enum.each(fn action ->
 			bot
 			|> skill_group(:pending, action)
-			|> :lasp_pg.leave(self())
+			|> @group.leave(self())
 		end)
 
 		# Process result
@@ -102,7 +96,7 @@ defmodule Bot do
 			{:new, ^filter} ->
 				IO.inspect("CLOSED")
 				:stop
-			event = {action, _body, context} ->
+			event = {_action, _body, context} ->
 				cond do
 					compare(filter, context) -> event
 					true -> loop(filter)

@@ -61,7 +61,7 @@ defmodule Bot.Skill do
 		end
 	end
 
-	defmacro __before_compile__(env) do
+	defmacro __before_compile__(_env) do
 		quote do
 			def casts, do: @casts
 			def calls, do: @calls

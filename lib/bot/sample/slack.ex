@@ -1,6 +1,5 @@
 defmodule Bot.Skill.Slack do
 	use Bot.Skill
-	alias Delta.Dynamic
 
 	def init(bot, [team, token]) do
 		{:ok, pid} = Slack.Bot.start_link(Bot.Skill.SlackRTM, %{bot: bot}, token)
@@ -69,7 +68,7 @@ end
 defmodule Bot.Skill.SlackRTM do
 	use Slack
 
-	def handle_connect(slack = %{
+	def handle_connect(%{
 		me: %{
 			id: id
 		},

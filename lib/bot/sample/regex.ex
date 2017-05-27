@@ -1,6 +1,5 @@
 defmodule Bot.Skill.Regex do
 	use Bot.Skill
-	alias Delta.Dynamic
 
 	def init(bot, _args) do
 		{:ok, %{}}
@@ -20,7 +19,7 @@ defmodule Bot.Skill.Regex do
 					parsed =
 						results
 						|> Enum.into(%{})
-						|> Dynamic.keys_to_atoms
+						|> atom_keys
 						|> Map.put(:raw, text)
 					Bot.cast(bot, event, parsed, context)
 			end
@@ -34,4 +33,7 @@ defmodule Bot.Skill.Regex do
 			event: event,
 		})
 	end
+
+	defp atom_keys(input), do: for {key, val} <- input, into: %{}, do: {String.to_atom(key), val}
+
 end
