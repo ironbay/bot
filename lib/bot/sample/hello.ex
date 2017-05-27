@@ -11,7 +11,7 @@ defmodule Bot.Skill.Hello do
 
 
 	defcast("chat.hello", _body, context, state) do
-		Bot.cast(bot, "bot.message", "Hey there how are you?", context)
+		cast("bot.message", "Hey there how are you?")
 		wait do
 			{"chat.good", _, context} -> 
 				cast("bot.message", "That's great! Glad to hear that")

@@ -94,7 +94,6 @@ defmodule Bot do
 	defp loop(filter) do
 		receive do
 			{:new, ^filter} ->
-				IO.inspect("CLOSED")
 				:stop
 			event = {_action, _body, context} ->
 				cond do
