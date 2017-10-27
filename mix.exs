@@ -30,7 +30,7 @@ defmodule Bot.Mixfile do
 	# Type "mix help deps" for more examples and options
 	defp deps do
 		[
-			{:slack, "~> 0.10.0"},
+			{:slack, "~> 0.12.0"}
 		]
 	end
 end
