@@ -93,7 +93,7 @@ defmodule Bot.Skill.SlackRTM do
 		{:ok, state}
 	end
 
-	def handle_event(message = %{type: "message", user: sender}, _slack, state = %{me: me}) when sender != me do
+	def handle_event(message = %{type: "message", user: sender}, _slack, state = %{me: me}) when sender != me and sender !== "USLACKBOT" do
 		Bot.cast(state.bot, "slack.message", message, %{
 			key: message.ts,
 			team: state.team,
